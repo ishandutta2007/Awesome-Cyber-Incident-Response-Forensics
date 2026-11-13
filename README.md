@@ -1,44 +1,73 @@
-# Awesome-Cyber-Incident-Response-Forensics
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Cyber Incident Response and Forensics Banner" width="100%" />
+</p>
 
-## Top Cyber Incident Response & Forensics Ecosystem
+# 🛡️ Awesome Cyber Incident Response & Forensics (DFIR)
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on DFIR Retainers, Managed Detection & Response (MDR) & Forensic Investigation*  
-**Last updated: March 2026**
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cyber-Incident-Response-Forensics/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cyber-Incident-Response-Forensics?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cyber-Incident-Response-Forensics/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Cyber-Incident-Response-Forensics?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cyber-Incident-Response-Forensics/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Cyber-Incident-Response-Forensics" alt="Issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cyber-Incident-Response-Forensics/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Cyber-Incident-Response-Forensics" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Cyber Incident Response & Forensics**. These tools help organizations prepare for, respond to, and recover from security breaches—covering pre-negotiated IR retainers with guaranteed SLAs, managed detection and response (MDR) services, and open-source forensic toolkits for evidence collection and analysis.
+## 📌 Top Cyber Incident Response & Forensics Ecosystem
 
-**Examples** include Mandiant Incident Response, CrowdStrike Falcon Complete, Palo Alto Unit 42, SentinelOne Vigilance, Arctic Wolf, Cybereason, Sophos Rapid Response, Kroll, Rapid7, and open-source alternatives like SentinelSOC and Velociraptor (the category leaders).
+> **A curated collection of industry-leading SaaS Incident Response (IR) retainers, Managed Detection & Response (MDR) platforms, and premier open-source Digital Forensics and Incident Response (DFIR) frameworks.**
 
-**Open-source emphasis**: This section highlights every major active project for self-hosted DFIR, open-source forensic collection, and community-driven incident response tooling—ideal for organizations seeking transparent, vendor-neutral investigation capabilities without retainer commitments. Note that open-source DFIR tooling excels at evidence collection and triage, but does not replace the human expertise and legal privilege that commercial IR retainers provide.
+This comprehensive directory tracks battle-tested **SaaS platforms**, enterprise incident response retainers, and **open-source tools** designed for **Cyber Incident Response & Forensics**. Modern SOC teams, CIRTs (Cyber Incident Response Teams), and security leaders utilize these resources to proactively prepare for breaches, contain active intrusions with SLA guarantees, and perform deep forensic analysis across endpoints, networks, memory dumps, and cloud infrastructure.
 
-Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
+---
 
-## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+## 📑 Table of Contents
 
-## SaaS/Hosted Platforms
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Commercial Retainer Platforms](#-saas--commercial-retainer-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ IR Retainer vs. Open-Source Strategy](#%EF%B8%8F-ir-retainer-vs-open-source-strategy)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⭐ Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚖️ Disclaimer](#%EF%B8%8F-disclaimer)
 
-| Product | Description | Pricing (Starting) | Free Tier / Trial Limits |
-|---------|-------------|-------------------|--------------------------|
-| **[Mandiant Incident Response](https://www.mandiant.com/)** | Industry-leading DFIR retainer with **platform-agnostic** expertise (no EDR lock-in). Offers **no-cost retainer** (time-and-materials pricing upon incident) or **prepaid hours** at discounted rates, with flexibility to repurpose unused hours for proactive services like compromise assessments, red teaming, or tabletop exercises. Standard SLA: **4-hour initial contact**; enhanced **2-hour SLA** available . | No-cost retainer (T&M upon incident); prepaid hours at discounted rates; enhanced 2-hour SLA available | **No-cost retainer** available—no financial commitment until an incident is declared  |
-| **[Palo Alto Unit 42](https://unit42.paloaltonetworks.com/)** | Elite DFIR team with **no-cost retainer for qualified AWS Security Incident Response customers**: 250 hours of initial IR services at no cost, **2-hour response SLA**, and 24/7/365 access. Platform-agnostic investigation across endpoints, networks, and multi-cloud environments . | **No-cost retainer** (250 hours for qualified AWS customers); preferred pricing for AWS customers on paid retainers | **250 free IR hours** + 2-hour SLA for qualified AWS Security Incident Response customers  |
-| **[CrowdStrike Falcon Complete](https://www.crowdstrike.com/)** | Fully managed MDR service with 24/7 expert monitoring, threat hunting, and remediation. Deeply integrated with Falcon platform. Positioned as **endpoint-centric MDR** rather than platform-agnostic DFIR retainer—best for organizations standardized on CrowdStrike EDR . | ~**$125 per endpoint/year** (SelectHub estimate)  | No free tier; trial via sales  |
-| **[SentinelOne Vigilance](https://www.sentinelone.com/)** | Managed detection and response service extending SentinelOne's autonomous EDR. 24/7 SOC monitoring and response. | ~**$27.99 per endpoint/year** (Insight listing)  | No free tier; trial via sales  |
-| **[Arctic Wolf](https://arcticwolf.com/)** | Insurance-approved IR team with **JumpStart Retainer** at **$6,000/year**—significantly lower entry point than typical IR retainers. Includes prioritized response time, IR planning, incident runbooks, and **$325/hour discounted IR rate**. | **$6,000/year** (JumpStart Retainer); $325/hour IR rate | No free tier; retainer purchase required for IR services  |
-| **[Cybereason](https://www.cybereason.com/)** | DFIR retainer recognized in Gartner Market Guide for four consecutive years. **Resilience Retainer** with flexible contracting, dollar-based model for transparency, discounts toward 50+ consulting services, and dedicated resilience expert. 40+ insurance carrier partnerships . | Quote-only (dollar-based retainer model) | No free tier; demo via sales  |
-| **[Sophos Rapid Response](https://www.sophos.com/)** | Incident response service with **fixed 45-day pricing** based on total user and server count. No additional costs beyond the quoted price. | Quote-only (fixed 45-day engagement based on user/server count)  | No free tier; engagement-based pricing  |
-| **[Kroll Cyber Risk](https://www.kroll.com/)** | Large global IR provider with full incident lifecycle coverage including DFIR, breach notification, litigation support, and regulatory compliance. Strategic CrowdStrike partnership for rapid response . | Quote-only (enterprise retainer or engagement-based) | No free tier; demo via sales  |
-| **[Rapid7 Incident Command](https://www.rapid7.com/)** | Tiered IR retainer packages (Essential, Advanced, Ultimate) with asset-based pricing. Includes 90-day or 13-month subscription options with Quickstart included in Year 1 . | Quote-only (asset-based tiered packages) | No free tier; trial via sales  |
-| **[Secureworks Taegis](https://www.secureworks.com/)** | MDR and IR services with Taegis platform. Vulnerability management licensing available per asset. | ~**$37.88 per asset** (VDR license, 1001–2500 volume tier)  | No free tier; demo via sales  |
+---
 
-## Open-Source GitHub Projects
+## 🌐 Sector Overview & Market Dynamics
+
+The global Incident Response (IR) and Digital Forensics market is estimated at **$40.4B – $49.7B in 2026** and projected to surge past **$100B+ by 2030** at a compound annual growth rate (CAGR) of **~21%**, propelled by escalating ransomware threats, cloud-native migration, and strict breach disclosure mandates.
+
+Market dynamics reflect a **moderately fragmented landscape** rather than a winner-take-all monopoly: while mega-cap platform providers (Palo Alto Networks, CrowdStrike, Google Mandiant) dominate enterprise EDR/XDR ecosystems and frontline IR retainers, the space is balanced by specialized boutique forensic consultancies, dedicated mid-market MDR vendors (Arctic Wolf, Sophos), and an indispensable open-source foundation that powers daily practitioner triage.
+
+---
+
+## 🏢 SaaS & Commercial Retainer Platforms
+
+Enterprise incident response solutions, pre-negotiated DFIR retainers, and managed detection services sorted in descending order by parent company scale (market capitalization or enterprise valuation).
+
+| Product | Company Size / Valuation | Description | Pricing (Starting) | Free Tier / Trial Limits |
+|:---|:---|:---|:---|:---|
+| **[Mandiant Incident Response](https://www.mandiant.com/)** | **~$2.1T+** *(Alphabet / Google Cloud)* | Frontline DFIR retainer offering platform-agnostic breach investigation and proactive cyber readiness services. | **No-cost retainer** (Time & Materials billing upon incident declaration) or prepaid consulting hours from **$350 – $500/hour** | **No-cost retainer** tier available (no upfront retainer fee until incident engagement begins); **Mandiant Advantage** provides a permanent free threat intelligence tier (limited IOCs and threat actor summaries) |
+| **[Palo Alto Unit 42](https://unit42.paloaltonetworks.com/)** | **~$265B** *(PANW Market Cap)* | Elite DFIR unit delivering incident response, digital forensics, compromise assessments, and crisis containment. | Retainer credits starting at **$5,000 – $10,000/year** (prepaid draw-down model) or custom multi-tier credit bundles | **250 free incident response hours** with a 2-hour SLA for qualified AWS Security Incident Response enterprise customers; AWS SecOps includes a free tier of **first 10,000 findings/month** |
+| **[CrowdStrike Falcon Complete](https://www.crowdstrike.com/)** | **~$235B** *(CRWD Market Cap)* | 24/7 managed detection and response (MDR) alongside emergency DFIR response backed by Falcon EDR. | **~$125.00 per endpoint/year** (~$10.42/endpoint/month) for Falcon Complete MDR packages | **15-day free trial** of the Falcon platform (covers Falcon Prevent NGAV and core endpoint telemetry; no credit card required) |
+| **[SentinelOne Vigilance](https://www.sentinelone.com/)** | **~$8.0B** *(S Market Cap)* | Autonomous 24/7 MDR service providing SOC triage, threat containment, and forensic analysis across Singularity XDR. | **~$27.99 per endpoint/year** (~$2.33/endpoint/month add-on to core EDR licenses) | **30-day Proof-of-Concept (PoC) trial** arranged via sales/authorized partner engineering (full feature access for up to 50–100 test endpoints) |
+| **[Arctic Wolf](https://arcticwolf.com/)** | **~$4.3B** *(Private Valuation; ~$430M ARR)* | Security operations and turnkey incident response retainers with dedicated concierge teams. | **$6,000/year** for JumpStart Retainer (includes emergency SLA response planning and a discounted **$325/hour** emergency IR rate) | No free tier; offers a structured **30-day guided Security Operations / MDR PoC** through partner networks |
+| **[Sophos Rapid Response](https://www.sophos.com/)** | **~$3.9B** *(Thoma Bravo Buyout; ~$1.2B Revenue)* | Rapid incident containment service offering 24/7 triage and remediation for active breaches within hours. | Fixed engagement starting from **$15,000 – $25,000 per 45-day incident block** (scaled by server and user asset counts) | **30-day free trial** for Sophos Central / Intercept X Advanced endpoint protection with EDR features (unlimited local testing on trial devices) |
+| **[Kroll Cyber Risk](https://www.kroll.com/)** | **~$1.5B+** *(Annual Revenue; Stone Point Capital)* | Full-lifecycle incident management, forensic investigations, breach notification, and expert witness testimony. | Enterprise retainers starting from **$10,000/year** in prepaid blocks or customized advisory scopes | No permanent free tier; offers custom **advisory scoping sessions** and threat surface review demos upon request |
+| **[Rapid7 Incident Command](https://www.rapid7.com/)** | **~$1.0B** *(RPD Market Cap)* | Unified incident command and DFIR retainer packages integrated with InsightIDR SIEM/XDR. | **$70.40 per asset/year** (~$5.87/asset/month) for InsightIDR (minimum 251 assets; ~$17,670/year base) | **30-day free trial** of InsightIDR / Incident Command platform with full log ingestion and user behavior analytics (UBA) capabilities |
+| **[Secureworks Taegis](https://www.secureworks.com/)** | **~$859M** *(Sophos Acquisition; ~$366M Revenue)* | Taegis ManagedXDR platform combined with rapid DFIR investigation and vulnerability response. | **$37.88 per asset/year** (~$3.16/asset/month for Taegis VDR/EDR tier, 1001–2500 volume band) | **30-day interactive Taegis platform trial** and guided SOC test sandbox through authorized sales engineers |
+| **[Cybereason](https://www.cybereason.com/)** | **~$300M – $850M** *(Private / SoftBank / LevelBlue)* | Resilience Retainer providing incident investigation, forensic hunting, and proactive consulting credits. | Resilience Retainer credit commitments starting at **$10,000/year** (flexible drawdown across IR and consulting services) | **14-day cloud trial** of Cybereason Defense Platform with automated malicious operation (MalOp) correlation |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+Curated open-source frameworks, forensics toolkits, and SIEM engines. Sorted in **descending order by GitHub star count**.
 
 | Project | Star Badge | Description |
-|---------|------------|-------------|
+|:---|:---|:---|
 | **[osquery](https://github.com/osquery/osquery)** | [![Stars](https://img.shields.io/github/stars/osquery/osquery?style=social&color=white)](https://github.com/osquery/osquery/stargazers) | SQL-powered operating system instrumentation, monitoring, and analytics. Exposes an OS as a high-performance relational database, enabling fast incident response queries across endpoints. |
 | **[Wazuh](https://github.com/wazuh/wazuh)** | [![Stars](https://img.shields.io/github/stars/wazuh/wazuh?style=social&color=white)](https://github.com/wazuh/wazuh/stargazers) | Free, open-source SIEM and XDR platform providing unified endpoint protection, security log analysis, vulnerability detection, and automated incident response workflows. |
 | **[Sigma](https://github.com/SigmaHQ/sigma)** | [![Stars](https://img.shields.io/github/stars/SigmaHQ/sigma?style=social&color=white)](https://github.com/SigmaHQ/sigma/stargazers) | Generic and open signature format for SIEM systems, allowing threat hunters and DFIR practitioners to write detection rules once and deploy across diverse log environments. |
@@ -57,24 +86,64 @@ Contributions welcome! Open an PR to add/update entries. Keep descriptions factu
 | **[FIR (Fast Incident Response)](https://github.com/certsocietegenerale/FIR)** | [![Stars](https://img.shields.io/github/stars/certsocietegenerale/FIR?style=social&color=white)](https://github.com/certsocietegenerale/FIR/stargazers) | Cybersecurity incident management platform created by CERT Société Générale, designed for rapid creation, tracking, and metric reporting of security incidents. |
 | **[SentinelSOC](https://github.com/heysayanallgood/SentinelSOC)** | [![Stars](https://img.shields.io/github/stars/heysayanallgood/SentinelSOC?style=social&color=white)](https://github.com/heysayanallgood/SentinelSOC/stargazers) | Modular Blue Team and SOC toolkit for Linux and Termux. Combines threat intelligence, network analysis, live incident triage, persistence review, IOC sweeps, and multi-format DFIR reporting. |
 
-**Frameworks for building custom systems**: The open-source DFIR path is **collection + case management + analysis**. Use **Velociraptor** for endpoint visibility and evidence collection across fleets, **TheHive** for case management and coordination, **Volatility** for memory forensics, and **SentinelSOC** for lightweight Linux/Termux triage—creating a functional investigation capability without retainer commitments. However, **commercial IR retainers provide legal privilege, guaranteed SLAs, and human expertise** that open-source tooling cannot replace .
+---
 
-## How to Contribute
+## 🛠️ IR Retainer vs. Open-Source Strategy
 
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
+Building an effective organizational defense requires a hybrid strategy:
 
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Incident response and forensic investigations involve legally sensitive evidence and privileged communications; work with legal counsel to ensure evidence handling, chain of custody, and privilege protections are maintained.
-- **Open-source DFIR tooling does not replace commercial IR retainers.** Retainers provide guaranteed SLAs (2–4 hours), pre-negotiated terms, legal privilege, and human expertise during high-stakes breaches. Open-source tools (Velociraptor, TheHive, Volatility) excel at evidence collection and analysis but require internal expertise to operate under pressure. **Pricing models vary dramatically**: Arctic Wolf offers a **$6,000/year** entry retainer , Unit 42 provides **250 free hours** for qualified AWS customers , and Mandiant offers a **no-cost retainer** with T&M billing upon incident . CrowdStrike Falcon Complete is **~$125/endpoint/year** for managed MDR, not a DFIR retainer . Always clarify whether a service is MDR (ongoing monitoring) or DFIR (incident-specific investigation) before committing.
+1. **Endpoint Visibility & Collection**: Deploy **Velociraptor** or **osquery** across your fleet to ensure instant artifact acquisition and VQL hunting without license friction.
+2. **Deep-Dive Forensic Triage**: Use **Volatility 3** for RAM extraction and **Chainsaw** / **Plaso** / **Timesketch** for rapid timeline reconstruction.
+3. **Case Management & Correlation**: Standardize security investigations on **TheHive** integrated with **MISP** threat feeds.
+4. **Commercial Retainers for Major Breaches**: Rely on commercial retainers (**Mandiant**, **Unit 42**, **CrowdStrike**) when legal privilege, board-level communications, regulatory reporting, and guaranteed 2-hour SLAs are mandatory.
 
 ---
 
-**Made for SOC analysts, incident responders, forensic investigators, and organizations building cyber resilience.**  
-Let's make incident response and forensics more open, effective, and accessible.
+## 🤝 How to Contribute
+
+We welcome additions, corrections, and updates from the cybersecurity community!
+
+1. 🍴 Fork the repository.
+2. 🌿 Create a descriptive branch (`git checkout -b feature/add-new-dfir-tool`).
+3. 📝 Update `README.md` following existing format and include:
+   - Tool/Service name & official website or repo link.
+   - Transparent pricing model, starting tiers, and explicit trial/free plan limits.
+   - Accurate company scale or GitHub stargazer badge.
+4. 🚀 Submit a Pull Request with a clear description of the addition.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Cyber-Incident-Response-Forensics&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Cyber-Incident-Response-Forensics&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Sponsorship
+
+If this curated ecosystem helps your SOC, CIRT, or cybersecurity research, please consider giving the repository a **⭐ Star**, **🍴 Forking** it, and sharing it with your network!
+
+Your support keeps this guide updated with current pricing, SLA data, and community tooling:
+
+<p align="center">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor%20via%20GitHub-%E2%99%A5-ff69b4?style=for-the-badge&logo=github-sponsors" alt="Sponsor on GitHub" />
+  </a>
+</p>
+
+☕ **Buy a coffee or become a sponsor**: Check out the [Sponsor Dashboard](https://github.com/sponsors/ishandutta2007) to back ongoing open-source maintenance.
+
+---
+
+## ⚖️ Disclaimer
+
+- This is an independent, **community-curated directory** provided for educational and architectural reference only. It does not constitute formal legal or commercial endorsement.
+- Incident response and forensic investigations frequently involve legally sensitive evidence, chain-of-custody protocols, and privileged communications. Consult qualified legal counsel when drafting IR retainers and forensic playbooks.
+- Commercial IR retainer SLAs, starting prices, and promotional free tiers are subject to change by their respective vendors.
+
+---
+
+<p align="center">
+  <b>Built for SOC analysts, incident responders, forensic investigators, and organizations building cyber resilience.</b><br/>
+  <i>Let's make incident response and digital forensics open, effective, and accessible.</i>
+</p>
